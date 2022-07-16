@@ -111,15 +111,37 @@ body {
 
   animation: topdown 400ms 350ms ease-in backwards;
 }
+div#wrapper-cards {
+  display: grid;
+  grid-template-rows: 32rem 1fr 32rem 1fr;
+  grid-template-areas: 'a' 'b' 'c' 'd';
+  grid-gap: 3.6rem;
+}
 
+div#wrapper-cards .card:nth-child(1) {
+  max-height: 32rem;
+  grid-area: a;
+}
+div#wrapper-cards .card:nth-child(2) {
+  grid-area: b;
+}
+div#wrapper-cards .card:nth-child(3) {
+  max-height: 32rem;
+  grid-area: c;
+}
+div#wrapper-cards .card:nth-child(4) {
+  grid-area: d;
+}
 .card {
   position: relative;
-  margin-bottom: 3.6rem;
 
   animation: downtop 400ms 350ms ease-in backwards;
 }
 .card img {
   border-radius: 20px;
+}
+.card img:nth-child(1) {
+  max-height: inherit;
 }
 .card h2 {
   width: 11.2rem;

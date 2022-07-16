@@ -2,9 +2,9 @@
 
 Esse projeto foi desenvolvido para estudo, no programa Explorer da [RocketSeat](https://www.rocketseat.com.br/). 
 Objetivo dele é criar uma página simples, aplicando os conceitos de Mobile First, Grid Layout, variáveis CSS3, transições e Animações.
-
+<img align="center" src="https://github.com/jair-araujo/codigo_do_desafio_mobile_first/blob/main/assets/img/SpaceCream.gif" alt="Gif do resultado final do Desafio Mobile First Explorer RocketSeat"/>
 <h4 align="center"> 
-🚀 Em Andamento
+🚀 Concluído
 </h4>
 
 ### 📕 Aprendizados
